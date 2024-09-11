@@ -1,0 +1,46 @@
+a {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.tech {
+    color: cornflowerblue;
+    background-color:lightcyan;
+}
+
+.two {
+    color: darkgoldenrod;
+    background-color:bisque;
+}
+
+#Courses {
+    color: #371b15;
+    background-color: lightcoral;
+}
+
+#Requirement {
+    color: darkolivegreen;
+    background-color: lightblue;
+}
+
+#Basic {
+    color: cornflowerblue;
+    background-color: darkseagreen;
+}
+
+#Para {
+    color: darkslateblue;
+    background-color: bisque;
+}
+
+.pro {
+    color: crimson;
+    text-decoration: underline;
+}
