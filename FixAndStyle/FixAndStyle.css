@@ -1,0 +1,49 @@
+#blue {
+background-color: lightsteelblue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+#yellow2 {
+    color: darkgreen;
+    background-color: yellow;
+}
+
+#yellow3 {
+    color: yellow;
+    background-color: darkgreen;
+}
+
+.white {
+color: white;
+}
+
+.Blue {
+    color: blue;
+}
+
+.gold {
+    color: goldenrod;
+}
+
+#green {
+    background-color: darkgreen;
+}
+
+.lightgreen {
+    background-color: lightgreen;
+}
+
+.red {
+    color: red;
+}
+
+a {
+    color:darkcyan;
+}
+
+a:visited {
+    color: plum;
+}
