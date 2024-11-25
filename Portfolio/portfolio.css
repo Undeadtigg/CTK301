@@ -1,0 +1,105 @@
+/*Carousel */
+#wrapper {
+    margin: 1em auto;
+    width: 960px;
+  }
+  
+#myCarousel {
+    margin-bottom: 10px;
+    --f-progress-color:#201d1d ;
+  }
+
+#myCarousel img{
+    width: 700px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#myCarousel .f-carousel__slide {
+    text-align: center;
+    padding: 10px;
+    background: #201d1d;
+}
+
+/* bottom Menu */
+.menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 1em;
+}
+
+
+figure a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: #E2DEDE;
+    font-family: monospace, Arial, Helvetica, sans-serif;
+}
+figure a:hover{
+text-decoration: underline;
+}
+
+figure img{
+    margin: 0;
+    width: 200px;
+    height: 260px;
+    object-fit: cover;
+}
+figure img:hover {
+    filter: brightness(50%);
+    transition: all .3s;
+    box-shadow: 8px 8px 0px 2px #000000;
+  }
+
+figure:hover {
+    transform: scale(1.05);
+    transition: all .3s;
+  }
+
+/* About */
+
+#about{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.pfp{
+    padding: 10px;
+    object-fit: contain;
+    grid-column: span 1;
+    float: left;
+    text-align: center;
+}
+
+.pfp img{
+    width: 420px;
+}
+
+.aboutwords{
+    grid-column: span 2;
+}
+/* Personal work */
+
+#imggrid{
+    margin: 0px 13px;
+    display: grid;
+    grid-gap: 13px;
+    grid-template-columns: repeat(3,1fr);
+}
+
+#imggrid img{
+    margin: 5px 0px;
+    width: 100%;
+}
+
+.column1{
+    grid-column: span 1;
+}
+
+.column2{
+    grid-column: span 1;
+}
+.column3{
+    grid-column: span 1;
+}
