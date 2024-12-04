@@ -2,6 +2,7 @@
 #wrapper {
     margin: 1em auto;
     width: 960px;
+    text-align: center;
   }
   
 #myCarousel {
@@ -16,7 +17,6 @@
 }
 
 #myCarousel .f-carousel__slide {
-    text-align: center;
     padding: 10px;
     background: #201d1d;
 }
@@ -32,20 +32,22 @@
 figure a{
     text-decoration: none;
     display: block;
-    text-align: center;
     color: #E2DEDE;
     font-family: monospace, Arial, Helvetica, sans-serif;
 }
-figure a:hover{
-text-decoration: underline;
-}
+
 
 figure img{
     margin: 0;
     width: 200px;
-    height: 260px;
+    height: 280px;
     object-fit: cover;
 }
+
+figure a:hover{
+    text-decoration: underline;
+}
+
 figure img:hover {
     filter: brightness(50%);
     transition: all .3s;
@@ -62,33 +64,37 @@ figure:hover {
 #about{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    margin: 20px;
 }
 
 .pfp{
+    margin: 0px 50px;
     padding: 10px;
     object-fit: contain;
     grid-column: span 1;
-    float: left;
-    text-align: center;
 }
 
 .pfp img{
     width: 420px;
 }
 
-.aboutwords{
+.spantwo{
     grid-column: span 2;
+}
+
+.spanthree{
+    grid-column: span 3;
 }
 /* Personal work */
 
-#imggrid{
+#grid{
     margin: 0px 13px;
     display: grid;
     grid-gap: 13px;
     grid-template-columns: repeat(3,1fr);
 }
 
-#imggrid img{
+#grid img{
     margin: 5px 0px;
     width: 100%;
 }
@@ -102,4 +108,26 @@ figure:hover {
 }
 .column3{
     grid-column: span 1;
+}
+
+/*classwork*/
+
+#classgrid{
+    margin: 10px 50px;
+    grid-row-gap: 30px;
+    display: grid;
+    grid-gap: 13px;
+    grid-template-columns: repeat(3,1fr); 
+}
+
+.class{
+    grid-column: span 1;
+}
+
+.spantwo img{
+    width: 20%;
+}
+
+hr{
+    margin: 40px 0px;
 }
