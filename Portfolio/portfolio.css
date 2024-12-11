@@ -38,6 +38,8 @@ figure a{
     color: #E2DEDE;
     font-family: monospace, Arial, Helvetica, sans-serif;
     text-align: center;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 figure img{
@@ -145,6 +147,7 @@ figure:hover {
     font-size: 20px;
     font-weight: normal;
 }
+
 p{
     font-size: 20px;
 }
@@ -153,7 +156,6 @@ p{
     margin-bottom: 0;
     font-size: 25px;
 }
-
 footer{
     grid-template-columns: repeat(2,1fr);
  }
