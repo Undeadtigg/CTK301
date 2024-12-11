@@ -30,6 +30,9 @@
 figure{
     width: 100%;
     margin: 0;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
 }
 
 figure a{
@@ -37,9 +40,6 @@ figure a{
     display: block;
     color: #E2DEDE;
     font-family: monospace, Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size: 25px;
-    font-weight: bold;
 }
 
 figure img{
@@ -59,6 +59,7 @@ figure img:hover {
   }
  
 figure:hover {
+    text-decoration: underline;
     transform: scale(1.05);
     transition: all .3s;
   }
