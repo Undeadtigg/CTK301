@@ -7,41 +7,35 @@ body{
 
 header{
     text-align: center;
+    text-shadow: 6px 4px 0px #000000;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 10px;
+}
+
+header h1{
+    margin: 0;
+    padding: 0;
 }
 
 .textcenter{
     text-align: center;
+    margin: 40px 0px 60px 0px;
 }
 
-
-
-/*h's*/
-
-h1{
+.textcenter h2{
     text-shadow: 5px 4px 0px #000000;
-    font-size: 80px;
-    font-weight: bold;
-    margin: 0px 50px;
-    padding: 20px;
+}
+
+.textcenter hr{
+    width: 200px;
 }
 
 h2{
     font-size: 40px;
-    font-weight: normal;
+    font-weight: bolder;
+    margin: 0px 10px;
 }
-
-h3{
-    font-size: 30px;
-    font-weight: bold;
-}
-
-h4{
-    font-size: 25;
-    font-weight: normal;
-}
-
-
-/* Nav */
 
 nav{
     position: sticky;

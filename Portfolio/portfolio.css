@@ -1,4 +1,3 @@
-/*Carousel */
 #wrapper {
     margin: 1em auto;
     width: 960px;
@@ -11,7 +10,7 @@
   }
 
 #myCarousel img{
-    width: 700px;
+    width: 855px;
     height: 200px;
     object-fit: cover;
 }
@@ -21,27 +20,30 @@
     background: #201d1d;
 }
 
-/* bottom Menu */
 .menu{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    margin: 1em;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+    margin: 40px 200px;
 }
 
+figure{
+    width: 100%;
+    margin: 0;
+}
 
 figure a{
     text-decoration: none;
     display: block;
     color: #E2DEDE;
     font-family: monospace, Arial, Helvetica, sans-serif;
+    text-align: center;
 }
-
 
 figure img{
     margin: 0;
-    width: 200px;
-    height: 280px;
-    object-fit: cover;
+    width: 100%;
+    object-fit: contain;
 }
 
 figure a:hover{
@@ -53,15 +55,14 @@ figure img:hover {
     transition: all .3s;
     box-shadow: 8px 8px 0px 2px #000000;
   }
-
+ 
 figure:hover {
     transform: scale(1.05);
     transition: all .3s;
   }
 
-/* About */
 
-#about{
+  #about{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     margin: 20px;
@@ -76,6 +77,11 @@ figure:hover {
 
 .pfp img{
     width: 420px;
+    border-radius: 50%;
+}
+
+.aboutspan{
+    grid-column: span 2;
 }
 
 .spantwo{
@@ -85,7 +91,12 @@ figure:hover {
 .spanthree{
     grid-column: span 3;
 }
-/* Personal work */
+
+.aboutspan h3{
+    text-shadow: 6px 4px 0px #000000;
+    font-weight: bold;
+    font-size: 3em;
+}
 
 #grid{
     margin: 0px 13px;
@@ -103,22 +114,15 @@ figure:hover {
     grid-column: span 1;
 }
 
-.column2{
-    grid-column: span 1;
-}
-.column3{
-    grid-column: span 1;
-}
-
-/*classwork*/
-
 #classgrid{
     margin: 10px 50px;
     grid-row-gap: 30px;
     display: grid;
     grid-gap: 13px;
+    grid-row-gap: 50px;
     grid-template-columns: repeat(3,1fr); 
 }
+
 
 .class{
     grid-column: span 1;
@@ -128,6 +132,37 @@ figure:hover {
     width: 20%;
 }
 
-hr{
-    margin: 40px 0px;
+
+.class h3{
+    margin: 20px 0px 0px 0px;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 6px 4px 0px #000000;
+}
+
+.class h4{
+    margin: 0px 0px 20px 0px;
+    font-size: 20px;
+    font-weight: normal;
+}
+p{
+    font-size: 20px;
+}
+
+.spantwo h5{
+    margin-bottom: 0;
+    font-size: 25px;
+}
+
+footer{
+    grid-template-columns: repeat(2,1fr);
+ }
+
+footer h4{
+    margin: 20px 0px 0px 0px;
+    font-size: 20px;
+}
+
+footer p{
+    margin: 0px 0px 20px 0px;
 }
