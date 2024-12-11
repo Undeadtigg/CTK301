@@ -27,6 +27,15 @@
     margin: 40px 200px;
 }
 
+.menu a{
+    color: #E2DEDE;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+
 figure{
     width: 100%;
     margin: 0;
@@ -35,21 +44,10 @@ figure{
     text-align: center;
 }
 
-figure a{
-    text-decoration: none;
-    display: block;
-    color: #E2DEDE;
-    font-family: monospace, Arial, Helvetica, sans-serif;
-}
-
 figure img{
     margin: 0;
     width: 100%;
     object-fit: contain;
-}
-
-figure a:hover{
-    text-decoration: underline;
 }
 
 figure img:hover {
